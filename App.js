@@ -97,25 +97,25 @@ class HomeScreen extends React.Component {
     );
   };
 
-  renderHeaderRight = () => (
-    <Ionicons
-      name="arrow-forward"
-      size={30}
-      color="black"
-      style={styles.icon}
-      onPress={() => this.props.navigation.navigate('AnotherPage')}
-    />
-  );
+  // renderHeaderRight = () => (
+  //   <Ionicons
+  //     name="arrow-forward"
+  //     size={30}
+  //     color="black"
+  //     style={styles.icon}
+  //     onPress={() => this.props.navigation.navigate('AnotherPage')}
+  //   />
+  // );
 
-  renderHeaderLeft = () => (
-    <Ionicons
-      name="arrow-back"
-      size={30}
-      color="black"
-      style={styles.icon}
-      onPress={() => this.props.navigation.goBack()}
-    />
-  );
+  // renderHeaderLeft = () => (
+  //   <Ionicons
+  //     name="arrow-back"
+  //     size={30}
+  //     color="black"
+  //     style={styles.icon}
+  //     onPress={() => this.props.navigation.goBack()}
+  //   />
+  // );
 
   render() {
     const { searchQuery, posts, currentPage } = this.state;
